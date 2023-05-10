@@ -1,0 +1,11 @@
+.post-details{
+    background-color: red;
+    padding: 60px;
+    margin:  50px 420px;
+    color: #fff;
+    border-radius: 10px;
+}
+.post-details span{
+    color: rgb(117, 248, 3);
+    font-weight: bold;
+}
