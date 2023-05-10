@@ -3,7 +3,7 @@ import "./Post.css";
 import { Link } from 'react-router-dom';
 
 const Post = ({post}) => {
-    const {title,body,id} = post;
+    const {title,body} = post;
     return (
         <div className='post'>
             <h4>{title}</h4>

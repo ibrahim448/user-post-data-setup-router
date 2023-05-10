@@ -3,7 +3,7 @@ import "./Friend.css";
 import { Link } from 'react-router-dom';
 
 const Friend = ({friend}) => {
-    const {name, email, username, id} = friend;
+    const {name, email, username} = friend;
     return (
         <div className='friend'>
             <h1>Name: {name}</h1>
