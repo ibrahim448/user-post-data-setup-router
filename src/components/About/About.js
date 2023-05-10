@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
-            <h1>Defoult header</h1>
-            <h1>About Page</h1>
+        <div style={{backgroundColor:"red", height:"817px"}}>
+            <h1 style={{color:"white"}}>Defoult header</h1>
+            <h1 style={{color:"white"}}>About Page</h1>
         </div>
     );
 };
